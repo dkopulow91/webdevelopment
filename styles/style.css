@@ -1,0 +1,359 @@
+@font-face {
+    font-family: SocialIco;
+    src: url("../fonts/Socialico.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.fonHeader {
+    height: 323px;
+    background-color: #445161;
+}
+.productName {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    float: left;  
+}
+.imagesHeader {
+    width: 469px;
+    height: 214px;
+    margin-right: 50px;
+    margin-top: 59px;
+    float:right;
+    border: 2px solid white;   
+}
+.listHeader {
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    float: left;
+    list-style: url(../images/check%20icon.png);
+    margin-left: 50px;
+    margin-top: 143px;
+    position: absolute;
+}
+.aboutProductText {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+.aboutDescription {
+    font-family: Arial;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 653px;
+    height: 143px;
+}
+.imagesAboutProduct {
+    width: 469px;
+    height: 160px;
+    margin-left: 760px;
+    float: right;
+    border: 2px solid black; 
+    position: absolute;
+}
+.dignityProduct {
+    height: 323px;
+    background-color: #445161; 
+    margin-top: 50px;
+    padding-top: 3px;
+}
+.dignityProductText {
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.dignityProductDescription {
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.dignityProductDescription li {
+    width: calc(50% - 8px);
+    float: left;
+    list-style: url("../images/plus%20icon.png");
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+.screenshotText {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.screenshot .screenshotView {
+    color: #445161;
+    width: calc(50% - 8px);
+    float: left;
+}
+.screenshotImg {
+    width: 200px;
+    height: 150px;
+}
+.screenshot .screenshotView:nth-of-type(n+3) {
+    margin-top: 30px;
+}
+.screenshot .screenshotView:nth-of-type(odd) {
+    margin-right: 8px;
+}
+.screenshot .screenshotView:nth-of-type(even) {
+    margin-left: 8px;
+}
+.screenshot .screenshotView .screenshotImg {
+    float: left;
+    margin-right: 15px;
+}
+.screenshot .screenshotView .screenshotViewText {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+}
+.screenshot .screenshotView .screenshotDescription {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.reviewsText {
+    font-family: Arial;
+    color:  white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.reviews {
+    clear: both;
+    height: 224px;
+    background-color: #445161;
+}
+.reviewsPeople {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+.reviewsComment {
+    font-family: Arial;
+    color:  white;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+}
+.reviewsAuthor {
+    font-family: Arial;
+    color:  white;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+.reviewsHead {
+    float: left;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.buyNow {
+    height: 656px;
+}
+.buyNowText {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.buyNowTable .buyNow {
+    width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.buyNowTable {
+    width: 298px;
+    background: #445161;
+    border-radius: 4px;
+    border: 2px solid #445161;
+    float: left;
+    margin-left:95px;
+    margin-top: 20px;
+}
+.buyNowTable h2 {
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0; 
+}
+.buyNowTablePrice {
+    padding: 17px;
+    color: #445161;
+    background: #ffffff;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+.buyNowTableText {
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 10px;
+}
+.buyNowButton {
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px;
+    background: #ffffff;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+}
+footer {
+    background: #445161;
+    height: 509px;
+    padding: 50px;
+}
+.contactsText {
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.contactsInfo {
+    width: 785px;
+    margin: 0 auto;
+}
+.contactsInfo:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.contactsInfo form {
+    float: left;
+}
+.contactsInfo form input[type="text"],
+.contactsInfo form textarea {
+    display: block;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 21px;
+    padding: 7px 5px;
+    color: #445161;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    box-sizing: border-box;
+}
+.contactsInfo form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: #445161;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+}
+.contactsList {
+    float: right;
+}
+.contactsList .skype,
+.contactsList .icq,
+.contactsList .email,
+.contactsList .phone {
+    padding-left: 30px;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+}
+.contactsList .skype {
+    background: url("../images/skype%20icon.png") no-repeat left center;
+}
+.contactsList .icq {
+    background: url("../images/icq%20icon.png") no-repeat left center;
+}
+.contactsList .email {
+    background: url("../images/email%20icon.png") no-repeat left center;
+}
+.contactsList .phone {
+    background: url("../images/phone%20icon.png") no-repeat left center;
+}
+.contactsList .socialIcons {
+    font-family: SocialIco, sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 44px;
+    margin-top: 20px;
+}
+.copyright {
+    font-family: Arial;
+    color:  #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
+}
